@@ -1,0 +1,6 @@
+name: HealthGraph
+version: 0.1
+main: dk.hoggins.healthgraph.HealthGraph
+api-version: 1.13
+authors: [NikolajHoggins]
+website: hoggins.dk

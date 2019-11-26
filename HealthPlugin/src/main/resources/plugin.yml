@@ -1,0 +1,6 @@
+name: HealthGraph
+version: ${project.version}
+main: dk.hoggins.healthgraph.HealthGraph
+api-version: 1.13
+authors: [NikolajHoggins]
+website: hoggins.dk
