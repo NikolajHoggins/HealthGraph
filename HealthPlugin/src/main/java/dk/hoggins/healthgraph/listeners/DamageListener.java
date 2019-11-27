@@ -23,7 +23,7 @@ public class DamageListener implements Listener {
         Player p = (Player) event.getEntity();
         String healthString = String.valueOf(p.getHealth());
         p.sendMessage(healthString);
-        BukkitTask task = new HealthCheckRunnable().runTaskLater(HealthGraph.plugin, 20);
+        BukkitTask task = new HealthCheckRunnable(p).runTaskLater(HealthGraph.plugin, 20);
         if(p.getHealth() <= 10){
             p.setHealth(20);
             p.sendMessage("You have been healed");
